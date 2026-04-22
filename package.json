@@ -1,0 +1,14 @@
+{
+  "name": "pixiv-scraper",
+  "version": "1.0.0",
+  "description": "Pixiv scraper running on Cloudflare Workers",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
