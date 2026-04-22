@@ -100,13 +100,14 @@ export default {
 
     // Require GET only
     if (method !== "GET") return errRes("Method not allowed", 405);
-
+/*
     // Validate env
     if (!env.REFRESH_TOKEN) {
       return errRes("REFRESH_TOKEN not configured. Set it via: wrangler secret put REFRESH_TOKEN", 500);
     }
-
-    const RT = env.REFRESH_TOKEN;
+*/
+/*    const RT = env.REFRESH_TOKEN; */
+      const RT = "gVgbsbNe_ZSUxYO-dopFEpTLYc4RVbI2MS97u3T1fwI";
 
     // Shorthand query parser
     const q      = (k) => searchParams.get(k);
